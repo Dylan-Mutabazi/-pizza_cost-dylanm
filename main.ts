@@ -9,4 +9,4 @@ let subtotal = labour_cost + rent + material * Inches
 subtotal = subtotal * pizza
 let tax = subtotal * HST
 let total = subtotal + tax
-game.splash("the total of your pizza is " + total)
+game.splash("The total of your pizza is Subtotal $ " + subtotal + " + tax $ " + tax + "= $" + total)
